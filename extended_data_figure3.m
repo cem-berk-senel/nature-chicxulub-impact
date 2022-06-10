@@ -27,4 +27,4 @@ set(gcf, 'PaperPositionMode','manual');
 set(gcf,'papersize',[15,5])
 set(gcf,'paperposition',[0,0,15,5])
 set(findall(gcf,'-property','FontSize'),'FontSize',16)
-print('extended_figure3.png','-dpng','-r300');
+print('data_extended_figure3.png','-dpng','-r300');
