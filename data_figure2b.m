@@ -38,15 +38,11 @@ hx=xlabel('\bf Particle diameter [\mum]');
 legend('Land - u_*=0.05m/s','Land - u_*=0.20m/s',...
     'Ocean - u_*=0.05m/s','Ocean - u_*=0.20m/s','FontSize',10,'location','southeast')
 
-% cd /students/phd_ea/senel/Desktop/kpg/;
 set(gcf,'paperunits','inches') 
 set(gcf, 'PaperPositionMode','manual');
 set(gcf,'papersize',[7,6])
 set(gcf,'paperposition',[0,0,7,6])
-% set(gcf, 'renderer', 'OpenGL');
-% Change font
-% Export file
-print('nature_deposition.png','-dpng','-r300');
+print('data_figure2b.png','-dpng','-r300');
 
 clc;
 dd=1e6*dp;
